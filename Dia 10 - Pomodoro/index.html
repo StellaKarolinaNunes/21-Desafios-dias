@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+
+        <div class="navbar-center">Pomodoro</div>
+
+    </nav>
+
+    <div class="container">
+        <div class="timer-display">
+          00 : 25 : 00 : 000
+        </div>
+        <div class="congrats-message" id="congratsMessage">
+            <div class="congrats-box">
+                <span class="congrats-text">Parabéns! 🎉</span> <br>
+                <p>Você chegou no fim de mais um cíclo dessa sessão!</p><br>
+                <button id="reset-button" onclick="resetTimer()">Reiniciar ciclo</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="start-timer">Start</button>
+            <button id="pause-timer">Pause</button>
+            <button id="reset-timer">Reset</button>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

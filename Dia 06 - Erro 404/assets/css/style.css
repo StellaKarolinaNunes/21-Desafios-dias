@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  background: url('https://imgur.com/xRt1YWu.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  color: white;
+  width: 380px;
+}
+
+header h1 {
+  font-family: 'Outfit';
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 24px;
+  line-height: 120%;
+}
+
+header p {
+  font-family: 'Outfit';
+  font-weight: 300;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 140%;
+  margin-bottom: 56px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 999px;
+  background-color: #151557;
+  border: none;
+  color: white;
+  margin-right: 16px;
+  font-family: 'Outfit';
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #0c0c3a;
+}
+.card {
+  margin: 30px; /* Adicione a margem desejada */
+}

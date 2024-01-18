@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+#customButton {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+  position: relative;
+  cursor: pointer;
+}
+
+#customButton:active {
+  background-color: blue;
+}
+
+#circleLoader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+#circleLoader svg {
+  animation: rotate 2s linear infinite;
+}
+
+#circleLoader circle {
+  fill: yellow;
+  stroke: #333;
+  stroke-width: 6;
+}
+
+@keyframes rotate {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+#powerIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 100px;
+}
