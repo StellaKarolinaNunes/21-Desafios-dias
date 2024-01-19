@@ -1,15 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Botão Estilizado</title>
+  <title>Switch Day and Night Toggle Button</title>
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
   <div class="container">
-    <button id="styledButton">botão</button>
+    <div class="switch">
+      <label for="toggle">
+        <input id="toggle" class="toggle-switch" type="checkbox">
+        <div class="sun-moon">
+          <div class="dots"></div>
+        </div>
+        <div class="background">
+          <div class="stars1"></div>
+          <div class="stars2"></div>
+        </div>
+        <div class="fill"></div>
+      </label>
+    </div>
   </div>
-  <script src="./assets/js/script.js"></script>
 </body>
 </html>

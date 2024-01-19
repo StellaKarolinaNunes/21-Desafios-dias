@@ -1,29 +1,4 @@
-// let output = document.getElementById("output");
 
-// function appendSymbol(symbol) {
-//   output.value += symbol;
-// }
-
-// function appendDecimal() {
-//   if (!output.value.includes('.')) {
-//     output.value += '.';
-//   }
-// }
-
-// function clearOutput() {
-//   output.value = "";
-// }
-// document.querySelector('#delete')
-//     .addEventListener('click', function(){
-//         screen.value = screen.value.substring(0, (screen.value.length -1));
-// })
-// function calculateResult() {
-//   try {
-//     output.value = eval(output.value);
-//   } catch (error) {
-//     output.value = "Erro";
-//   }
-// }
 // Variável para armazenar a entrada
 let input = "";
 
@@ -61,8 +36,13 @@ function calculateResult() {
 }
 
 // Função para apagar a entrada
-function clearOutput() {
+function cleardelete() {
   input = input.slice(0, -1);
+  updateOutput();
+}
+
+function clearOutput() {
+  input = "";
   updateOutput();
 }
 

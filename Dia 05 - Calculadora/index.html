@@ -6,17 +6,13 @@
   <title>Calculadora</title>
   <link rel="stylesheet" href="assets\css\style.css">
 </head>
-
 <body>
   <div class="calculator">
     <h1 class="calculator-title">Calculadora</h1>
-  <div class="calculator">
     <input type="text" id="output" disabled>
-
     <div class="buttons">
-
-      <button class="operator apagar" onclick="clearOutput()">C</button>
-      <button class="operador delete" onclick="clearOutput()">&larr;</button>
+      <button class="operator clearOutput" onclick="clearOutput()">Apagar Tudo</button>
+      <button class="operator delete" onclick="cleardelete()">&larr;</button>
       <button class="operator" onclick="appendSymbol('/')">/</button>
       <button class="number" onclick="appendSymbol('7')">7</button>
       <button class="number" onclick="appendSymbol('8')">8</button>
@@ -34,9 +30,7 @@
       <button class="operator" onclick="appendDecimal()">,</button>
       <button class="operator enter" onclick="calculateResult()">Enter</button>
     </div>
-    
   </div>
-  
   <script src="assets\js\script.js"></script>
 </body>
 </html>

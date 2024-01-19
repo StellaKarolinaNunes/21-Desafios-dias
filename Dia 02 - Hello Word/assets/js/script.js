@@ -3,7 +3,12 @@ const colors = {
     red: '#C51212',
     blue: '#0041C2',
     green: '#14B02D',
-    yellow: '#ffc12b'
+    yellow: '#FFC12B',
+    purple: '#8A2BE2',
+    orange: '#FFA500',
+    pink: '#FF69B4',
+    brown: '#8B4513',
+    teal: '#008080'
 };
 
 let intervalId;
